@@ -60,7 +60,6 @@ module.exports = {
     "scss/at-mixin-argumentless-call-parentheses": "never",
     "selector-list-comma-newline-after": "always",
     "selector-max-compound-selectors": 3,
-    "selector-no-id": true,
     "selector-no-qualifying-type": true,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-element-colon-notation": "double",
