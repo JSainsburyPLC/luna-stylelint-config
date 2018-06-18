@@ -4,10 +4,26 @@ module.exports = {
   "extends": "stylelint-config-standard",
   "ignoreFiles": "node_modules",
   "plugins": [
-    "stylelint-scss"
+    "stylelint-scss",
+    "stylelint-order"
   ],
   "rules": {
     "at-rule-blacklist": ["debug"],
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": [
+        "function",
+        "if",
+        "else",
+        "elseif",
+        "each",
+        "include",
+        "mixin",
+        "return",
+        "warn",
+        "content",
+        "for"
+      ]
+    }],
     "at-rule-no-vendor-prefix": true,
     "block-no-empty": true,
     "block-opening-brace-space-before": "always",
@@ -35,6 +51,7 @@ module.exports = {
     "no-missing-end-of-source-newline": true,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
+    "order/properties-alphabetical-order": true,
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": [
@@ -69,5 +86,6 @@ module.exports = {
     "shorthand-property-no-redundant-values": true,
     "string-quotes": "single",
     "value-no-vendor-prefix": true,
+    "value-list-max-empty-lines": 1
   }
 }
