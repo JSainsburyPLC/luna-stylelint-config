@@ -9,21 +9,8 @@ module.exports = {
   ],
   "rules": {
     "at-rule-blacklist": ["debug"],
-    "at-rule-no-unknown": [true, {
-      "ignoreAtRules": [
-        "function",
-        "if",
-        "else",
-        "elseif",
-        "each",
-        "include",
-        "mixin",
-        "return",
-        "warn",
-        "content",
-        "for"
-      ]
-    }],
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
     "at-rule-no-vendor-prefix": true,
     "block-no-empty": true,
     "block-opening-brace-space-before": "always",
