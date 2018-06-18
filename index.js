@@ -1,6 +1,7 @@
 "use strict"
 
 module.exports = {
+  "extends": "stylelint-config-standard",
   "ignoreFiles": "node_modules",
   "plugins": [
     "stylelint-scss"
@@ -16,6 +17,7 @@ module.exports = {
     "color-no-invalid-hex": true,
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
+    "declaration-block-no-duplicate-properties": true,
     "declaration-block-semicolon-newline-after": "always",
     "declaration-block-semicolon-space-before": "never",
     "declaration-block-single-line-max-declarations": 1,
