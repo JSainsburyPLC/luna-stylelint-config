@@ -38,7 +38,6 @@ module.exports = {
     "no-missing-end-of-source-newline": true,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
-    "order/properties-alphabetical-order": true,
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": [
