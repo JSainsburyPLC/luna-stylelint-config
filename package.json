@@ -1,7 +1,7 @@
 {
   "name": "luna-stylelint-config",
   "description": "Sass StyleLint config for Luna",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "author": "Sainsbury's Supermarkets Ltd",
   "license": "MIT",
