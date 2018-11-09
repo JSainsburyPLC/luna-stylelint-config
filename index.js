@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = {
-  "extends": "stylelint-config-standard",
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
   "ignoreFiles": "node_modules",
   "plugins": [
     "stylelint-scss",
