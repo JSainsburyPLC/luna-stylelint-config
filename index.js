@@ -30,7 +30,6 @@ module.exports = {
     "function-comma-space-after": "always-single-line",
     "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": "always",
-    "indentation": 2,
     "length-zero-no-unit": true,
     "max-nesting-depth": 2,
     "media-feature-name-no-vendor-prefix": true,
@@ -41,17 +40,6 @@ module.exports = {
     "order/properties-alphabetical-order": null,
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
-    "rule-empty-line-before": [
-      "always-multi-line",
-      {
-        "except": [
-          "first-nested"
-        ],
-        "ignore": [
-          "after-comment"
-        ]
-      }
-    ],
     "scss/at-extend-no-missing-placeholder": true,
     "scss/at-function-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
     "scss/at-import-no-partial-leading-underscore": true,
